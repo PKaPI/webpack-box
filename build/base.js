@@ -14,7 +14,6 @@ module.exports = () => {
     const name = _.split('/').pop().replace('.js', '')
     return map.set(name, require(_)(config, resolve))
   })
-
   map.forEach((v, key) => {
     // css 配置
     if (key === 'css') {
