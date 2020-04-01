@@ -13,9 +13,9 @@ package.json
     "build": "cross-env NODE_ENV=production webpack" // 生产环境
   },
   "dependencies": {
-    "cross-env": "^6.0.3",
+    "cross-env": "^6.0.3",//cross-env使得您可以使用单个命令,而不必担心为平台正确设置或使用环境变量。
     "css-loader": "^3.2.0",
-    "rimraf": "^3.0.0",
+    "rimraf": "^3.0.0",//rimraf 包的作用:以包的形式包装rm -rf命令,用来删除文件和文件夹的,不管文件夹是否为空,都可删除
     "webpack": "^4.41.2"
   },
   "devDependencies": {

@@ -208,7 +208,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const css = __webpack_require__.e(0).then(__webpack_require__.t.bind(null, \"./src/style/index.css\", 7))\nconst a = 100;\nconsole.log(a, css)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("const css = __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.t.bind(null, /*! ./style/index.css */ \"./src/style/index.css\", 7));\nconst home = __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.t.bind(null, /*! ./home.js */ \"./src/home.js\", 7));\nconst a = 100;\nconsole.log(a, css)\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -219,7 +219,7 @@ eval("const css = __webpack_require__.e(0).then(__webpack_require__.t.bind(null,
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(\"./src/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js?");
+eval("module.exports = __webpack_require__(/*! /Users/pizhen/Desktop/项目列表/utils-cli/webpack-box/src/index.js */\"./src/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js?");
 
 /***/ })
 
