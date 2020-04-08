@@ -15,6 +15,7 @@ config.devServer
   .publicPath(publicPath)
   .clientLogLevel('none')
 
+console.log(config.toConfig());
 const compiler = webpack(config.toConfig())
 // 拿到 devServer 参数
 const chainDevServer = compiler.options.devServer

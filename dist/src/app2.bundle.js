@@ -81,20 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/main.js":
+/***/ "./src/home.js":
 /*!*********************!*\
-  !*** ./src/main.js ***!
+  !*** ./src/home.js ***!
   \*********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ts_index_ts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ts/index.ts */ \"./src/ts/index.ts\");\n\n\n__webpack_require__(/*! ./style/index.css */ \"./src/style/index.css\");\n\n__webpack_require__(/*! ./style/app.css */ \"./src/style/app.css\");\n\n__webpack_require__(/*! ./style/index.less */ \"./src/style/index.less\");\n\n__webpack_require__(/*! ./style/index.scss */ \"./src/style/index.scss\");\n\n__webpack_require__(/*! ./style/index.postcss */ \"./src/style/index.postcss\");\n\nnew _ts_index_ts__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\nvar h2 = document.createElement('h2');\nh2.className = 'test';\nh2.innerText = 'testaaa';\ndocument.body.append(h2);\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("__webpack_require__(/*! ./style/index.css */ \"./src/style/index.css\");\n\n__webpack_require__(/*! ./style/app.css */ \"./src/style/app.css\");\n\n//# sourceURL=webpack:///./src/home.js?");
 
 /***/ }),
 
@@ -120,59 +119,14 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
-/***/ "./src/style/index.less":
-/*!******************************!*\
-  !*** ./src/style/index.less ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/index.less?");
-
-/***/ }),
-
-/***/ "./src/style/index.postcss":
-/*!*********************************!*\
-  !*** ./src/style/index.postcss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/index.postcss?");
-
-/***/ }),
-
-/***/ "./src/style/index.scss":
-/*!******************************!*\
-  !*** ./src/style/index.scss ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/index.scss?");
-
-/***/ }),
-
-/***/ "./src/ts/index.ts":
-/*!*************************!*\
-  !*** ./src/ts/index.ts ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return A; });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar A = function A() {\n  _classCallCheck(this, A);\n\n  var a = '123';\n  console.log(a);\n};\n\n\n\n//# sourceURL=webpack:///./src/ts/index.ts?");
-
-/***/ }),
-
-/***/ 0:
+/***/ 1:
 /*!***************************!*\
-  !*** multi ./src/main.js ***!
+  !*** multi ./src/home.js ***!
   \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! /Users/luoxue/Desktop/learn/learn_webpack/src/main.js */\"./src/main.js\");\n\n\n//# sourceURL=webpack:///multi_./src/main.js?");
+eval("module.exports = __webpack_require__(/*! /Users/pizhen/Desktop/项目列表/utils-cli/webpack-box/src/home.js */\"./src/home.js\");\n\n\n//# sourceURL=webpack:///multi_./src/home.js?");
 
 /***/ })
 
